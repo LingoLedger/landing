@@ -21,6 +21,12 @@ const logos = [
   "alloy",
   "contactout",
   "ycombinator",
+  "airwallet",
+  "madpaws",
+  "checkbox",
+  "simplywallet",
+  "lawpath",
+  "legalvision",
 ];
 
 class HeroSplit extends React.Component {
@@ -102,7 +108,14 @@ class HeroSplit extends React.Component {
                   />
                 </div>
               </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: 32 }}>
+              <div
+                style={{
+                  display: "flex",
+                  flexWrap: "wrap",
+                  columnGap: 32,
+                  rowGap: 64,
+                }}
+              >
                 {logos.map((logo, index) => (
                   <div
                     style={{
