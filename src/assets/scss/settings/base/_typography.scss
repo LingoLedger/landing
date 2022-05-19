@@ -1,12 +1,12 @@
 // Typography
 
 $font--provider:    'Google Fonts';
-$font--import:      'IBM+Plex+Sans:600,600i|Heebo:400,500,700';
+$font--import:      'Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900';
 
 // The font set
 $font--family: (
-	heading: 	'"IBM Plex Sans", sans-serif',
-	base:		'"Heebo", sans-serif',
+	heading: 	'"Rubik", sans-serif',
+	base:		'"Rubik", sans-serif',
 	code: 		'Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace',
 	pre: 		'"Courier 10 Pitch", Courier, monospace'
 );
