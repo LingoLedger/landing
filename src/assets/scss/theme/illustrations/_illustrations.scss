@@ -16,7 +16,7 @@
 
 // Hero illustration
 .illustration-section-01::after {
-	@include illustration('illustration-section-01.svg', 100%, 1323px, top);
+	@include illustration('illustration-section-01.svg', 100%, 1323px, top, 0px, 64px);
 }
 
 // Signin illustration
@@ -62,7 +62,7 @@
 	@include illustration('illustration-element-02-mobile.svg', 300%, 200%);
 
 	@include media( '>medium' ) {
-		@include illustration('illustration-element-02.svg', 300%, 300%);
+		@include illustration('illustration-element-02.svg', 300%, 300%, 24px, -48px);
 	}
 }
 
