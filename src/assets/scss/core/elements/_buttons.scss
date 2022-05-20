@@ -91,21 +91,10 @@
 }
 
 .button-primary {
-	color: color(button-primary);
-    background-color: color-bg(button-primary);
-	border-color: color-border(button-primary);
+	color: white;
+    background-color: #218dbb;
+	border-color: #218dbb;
 
-    &:hover {
-        background-color: color-bg(button-primary-hover);
-		border-color: color-border(button-primary-hover);
-    }
-
-	&.is-loading {
-
-		&::after {
-			border-color: color(button-primary);
-		}
-	}
 }
 
 .button-secondary {
@@ -124,6 +113,13 @@
 			border-color: color(button-secondary);
 		}
 	}
+}
+
+.button-outline {
+	color: #218dbb;
+    background-color: white;
+	border: 1px solid #218dbb;
+	border-radius: 4px;
 }
 
 .button-block {
