@@ -81,8 +81,6 @@ class VideoFull extends React.Component {
                   className="has-shadow"
                   src={require("./../../assets/images/video-placeholder.svg")}
                   alt="Video"
-                  width={712}
-                  height={400}
                 />
               </a>
             </div>
