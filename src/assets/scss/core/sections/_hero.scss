@@ -21,6 +21,10 @@
     }
   }
 }
+.logo-wrapper {
+  max-height: 124px;
+  overflow-y: hidden;
+}
 
 @include media("<=medium") {
   .hero {
@@ -52,19 +56,40 @@
 }
 
 @include media("<larger") {
+  .logo-wrapper {
+    margin: auto;
+    max-width: 496px;
+    max-height: none;
+  }
+
+  .hero-figure {
+    display: none !important;
+  }
+
   .hero {
     .split-wrap {
       .split-item {
-        margin-bottom: 0;
+        min-height: 60vh;
+        display: flex;
+        justify-content: center;
+        .button-group {
+          justify-content: center;
+        }
 
         .hero-content {
           width: 100%;
           text-align: center;
         }
+      }
+    }
+  }
+}
 
-        &.hero-figure {
-          display: none;
-        }
+@include media(">=larger") {
+  .hero-inner {
+    .split-wrap {
+      .split-item {
+        margin-bottom: 0;
       }
     }
   }
