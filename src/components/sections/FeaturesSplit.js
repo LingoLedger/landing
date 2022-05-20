@@ -72,17 +72,11 @@ class FeaturesSplit extends React.Component {
                     throughout Australia for professional practice.
                   </p>
                 </div>
-                <div
-                  className={classNames(
-                    "split-item-image is-3d illustration-element-03",
-                    imageFill && "split-item-image-fill",
-                  )}
-                >
+                <div>
                   <Image
-                    src={require("./../../assets/images/features-split-image-01.svg")}
+                    style={{ boxSizing: "scale-down" }}
+                    src={require("./../../assets/images/features-split-image-01.png")}
                     alt="Features split 01"
-                    width={528}
-                    height={396}
                   />
                 </div>
               </div>
@@ -96,17 +90,11 @@ class FeaturesSplit extends React.Component {
                     fee is going to the translator/interpretor.{" "}
                   </p>
                 </div>
-                <div
-                  className={classNames(
-                    "split-item-image is-3d illustration-element-04",
-                    imageFill && "split-item-image-fill",
-                  )}
-                >
+                <div>
                   <Image
-                    src={require("./../../assets/images/features-split-image-02.svg")}
+                    style={{ boxSizing: "scale-down" }}
+                    src={require("./../../assets/images/features-split-image-02.png")}
                     alt="Features split 02"
-                    width={528}
-                    height={396}
                   />
                 </div>
               </div>
@@ -121,17 +109,11 @@ class FeaturesSplit extends React.Component {
                     an intermediary agency.
                   </p>
                 </div>
-                <div
-                  className={classNames(
-                    "split-item-image is-3d illustration-element-05",
-                    imageFill && "split-item-image-fill",
-                  )}
-                >
+                <div>
                   <Image
-                    src={require("./../../assets/images/features-split-image-03.svg")}
+                    style={{ boxSizing: "scale-down" }}
+                    src={require("./../../assets/images/features-split-image-03.png")}
                     alt="Features split 03"
-                    width={528}
-                    height={396}
                   />
                 </div>
               </div>
@@ -145,17 +127,11 @@ class FeaturesSplit extends React.Component {
                     just 2 minutes!
                   </p>
                 </div>
-                <div
-                  className={classNames(
-                    "split-item-image is-3d illustration-element-04",
-                    imageFill && "split-item-image-fill",
-                  )}
-                >
+                <div>
                   <Image
-                    src={require("./../../assets/images/features-split-image-02.svg")}
+                    style={{ boxSizing: "scale-down" }}
+                    src={require("./../../assets/images/features-split-image-04.png")}
                     alt="Features split 02"
-                    width={528}
-                    height={396}
                   />
                 </div>
               </div>
@@ -167,17 +143,11 @@ class FeaturesSplit extends React.Component {
                     one phone call or chat message away. Omni Channel Support.
                   </p>
                 </div>
-                <div
-                  className={classNames(
-                    "split-item-image is-3d illustration-element-05",
-                    imageFill && "split-item-image-fill",
-                  )}
-                >
+                <div>
                   <Image
-                    src={require("./../../assets/images/features-split-image-03.svg")}
+                    style={{ boxSizing: "scale-down" }}
+                    src={require("./../../assets/images/features-split-image-05.png")}
                     alt="Features split 03"
-                    width={528}
-                    height={396}
                   />
                 </div>
               </div>

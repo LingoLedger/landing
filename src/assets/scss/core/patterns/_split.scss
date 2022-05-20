@@ -40,12 +40,14 @@
 	}
 }
 
-@include media( '<=medium' ) {
-
+@include media( '<=larger' ) {
+	
 	.split-wrap {
-
+		
 		.split-item {
-
+			text-align: center;
+			align-items: center;
+			
 			.split-item-content {
 				margin-bottom: $split-item--inner-padding-v_mobile;
 			}
@@ -68,7 +70,7 @@
 	}
 }
 
-@include media( '>medium' ) {
+@include media( '>larger' ) {
 
 	.split-wrap {
 		margin-top: -($split-item--padding-v__desktop / 2);
@@ -134,7 +136,7 @@
 	}
 }
 
-@include media( '>large' ) {
+@include media( '>larger' ) {
 
 	.container {
 
