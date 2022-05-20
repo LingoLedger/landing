@@ -27,6 +27,8 @@ const logos = [
   "simplywallet",
   "lawpath",
   "legalvision",
+  "hudled",
+  "cryptocom",
 ];
 
 class HeroSplit extends React.Component {
@@ -73,7 +75,7 @@ class HeroSplit extends React.Component {
         <div className="container">
           <div className={innerClasses}>
             <div className={splitClasses}>
-              <div className="split-item" style={{ marginBottom: 0 }}>
+              <div className="split-item">
                 <div className="hero-content split-item-content center-content-mobile">
                   <h1 className="mt-0 mb-16 reveal-from-left">
                     The world’s largest marketplace to find Accredited
@@ -89,7 +91,10 @@ class HeroSplit extends React.Component {
                     Get your Legal Interpretation and Translation needs met,
                     wherever and whenever. No hidden fees.
                   </p>
-                  <div className="reveal-from-left" data-reveal-delay="400">
+                  <div
+                    className="reveal-from-left button-group"
+                    data-reveal-delay="400"
+                  >
                     <Button
                       tag="a"
                       color="primary"
@@ -98,17 +103,30 @@ class HeroSplit extends React.Component {
                     >
                       Book Now
                     </Button>
+                    <Button
+                      tag="a"
+                      color="outline"
+                      href="https://cruip.com/"
+                      wideMobile
+                    >
+                      See how we work
+                    </Button>
                   </div>
                 </div>
                 <div className="hero-figure">
                   <Image
                     src={require("./../../assets/images/hero-image.png")}
                     alt="Hero"
-                    style={{ objectFit: "scale-down", boxShadow: "none" }}
+                    style={{
+                      objectFit: "scale-down",
+                      boxShadow: "none",
+                      marginTop: "48px",
+                    }}
                   />
                 </div>
               </div>
               <div
+                className="logo-wrapper"
                 style={{
                   display: "flex",
                   flexWrap: "wrap",
@@ -120,7 +138,7 @@ class HeroSplit extends React.Component {
                   <div
                     style={{
                       height: 30,
-                      width: 120,
+                      width: 100,
                       display: "flex",
                       justifyContent: "center",
                     }}
