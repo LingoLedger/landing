@@ -49,7 +49,7 @@ class HeroSplit extends React.Component {
     } = this.props;
 
     const outerClasses = classNames(
-      "hero section",
+      "hero section illustration-section-01",
       topOuterDivider && "has-top-divider",
       bottomOuterDivider && "has-bottom-divider",
       hasBgColor && "has-bg-color",
@@ -58,7 +58,7 @@ class HeroSplit extends React.Component {
     );
 
     const innerClasses = classNames(
-      "hero-inner section-inner",
+      "hero-inner section-inner ",
       topDivider && "has-top-divider",
       bottomDivider && "has-bottom-divider",
     );
@@ -87,6 +87,7 @@ class HeroSplit extends React.Component {
                   <p
                     className="mt-0 mb-24 reveal-from-left"
                     data-reveal-delay="200"
+                    style={{ color: "black" }}
                   >
                     Get your Legal Interpretation and Translation needs met,
                     wherever and whenever. No hidden fees.
@@ -101,7 +102,12 @@ class HeroSplit extends React.Component {
                       href="https://cruip.com/"
                       wideMobile
                     >
-                      Book Now
+                      Book Now{" "}
+                      <img
+                        style={{ margin: 0, marginLeft: 8 }}
+                        src={require("../../assets/images/arrow-right.svg")}
+                        alt="right arrow"
+                      />
                     </Button>
                     <Button
                       tag="a"
@@ -113,7 +119,7 @@ class HeroSplit extends React.Component {
                     </Button>
                   </div>
                 </div>
-                <div className="hero-figure">
+                <div className="hero-figure illustration-element-01">
                   <Image
                     src={require("./../../assets/images/hero-image.png")}
                     alt="Hero"
