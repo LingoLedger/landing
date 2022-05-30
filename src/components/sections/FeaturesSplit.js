@@ -30,7 +30,7 @@ class FeaturesSplit extends React.Component {
     } = this.props;
 
     const outerClasses = classNames(
-      "features-split section",
+      "features-split section illustration-section-05",
       topOuterDivider && "has-top-divider",
       bottomOuterDivider && "has-bottom-divider",
       hasBgColor && "has-bg-color",
@@ -99,7 +99,7 @@ class FeaturesSplit extends React.Component {
                 </div>
               </div>
 
-              <div className="split-item reveal-scale-up">
+              <div className="split-item reveal-scale-up ">
                 <div className="split-item-content center-content-mobile">
                   <h3 className="mt-0 mb-16">Direct to Translator</h3>
                   <p className="m-0">
@@ -109,7 +109,7 @@ class FeaturesSplit extends React.Component {
                     an intermediary agency.
                   </p>
                 </div>
-                <div>
+                <div className="illustration-element-06">
                   <Image
                     style={{ boxSizing: "scale-down" }}
                     src={require("./../../assets/images/features-split-image-03.png")}
