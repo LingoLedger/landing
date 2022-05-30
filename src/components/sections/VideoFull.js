@@ -39,7 +39,7 @@ class VideoFull extends React.Component {
     } = this.props;
 
     const outerClasses = classNames(
-      "section center-content",
+      "section center-content illustration-section-09",
       topOuterDivider && "has-top-divider",
       bottomOuterDivider && "has-bottom-divider",
       hasBgColor && "has-bg-color",
@@ -70,7 +70,7 @@ class VideoFull extends React.Component {
                 </p>
               </div>
             </div>
-            <div className="hero-figure illustration-element-02 reveal-scale-up">
+            <div className="illustration-element-09 reveal-scale-up">
               <a
                 data-video="https://player.vimeo.com/video/174002812"
                 href="#0"
@@ -79,8 +79,10 @@ class VideoFull extends React.Component {
               >
                 <Image
                   className="has-shadow"
-                  src={require("./../../assets/images/video-placeholder.svg")}
+                  src={require("./../../assets/images/video-placeholder.png")}
                   alt="Video"
+                  width={896}
+                  height={504}
                 />
               </a>
             </div>
