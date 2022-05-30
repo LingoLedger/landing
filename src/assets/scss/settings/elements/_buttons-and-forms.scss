@@ -47,7 +47,7 @@ $button--size: (
 
 // Buttons: font weight
 $button--weight: (
-	button:	700
+	button:	400
 );
 
 // More buttons settings
@@ -56,7 +56,7 @@ $button-sm--padding-h:			24px;		// button (small), left and right padding
 $button-w-form--padding-h:		24px;		// button, left and right padding in a form group (.form-group) - Overrides button default padding
 $button-sm-w-form--padding-h:	null;		// button (small), left and right padding in a form group (.form-group) - Overrides button default padding
 $button--radius: 				2px;		// button radius (never use null)
-$button--transform: 			uppercase;	// button text-transform property (null is allowed)
+$button--transform: 		 	null;	// button text-transform property (null is allowed)
 $button--max-size-mobile: 		280px;		// button max width on mobile (.button-wide-mobile)
 $button-group-padding: 			16px;		// padding between sibling buttons (nested into .button-group)
 $button-loading--thickness:		2px;		// button loading spinner, stroke width (.button.is-loading)
