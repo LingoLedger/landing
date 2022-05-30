@@ -10,6 +10,10 @@
 	z-index: -1;
 }
 
+[class*=illustration-section-] {
+	overflow: hidden;
+}
+
 [class*=illustration-section-]::after {
 	z-index: -2;
 }
@@ -53,16 +57,21 @@
 	@include illustration('illustration-section-08.svg', 100%, 153px, bottom, null, -48px);
 }
 
-// Behind hero figure
-.illustration-element-01::after {
-	@include illustration('illustration-element-01.svg', 300%, 200%);
+.illustration-section-09::after {
+	@include illustration('illustration-section-09.svg', 180%, 180%, top, -300px, -700px);
 }
 
+// Behind hero figure
+.illustration-element-01::after {
+	// width, height, vpos, hoffset, voffset
+	@include illustration('illustration-element-01.svg', 200%, 133%, top);
+}
+// width, height, vpos, hoffset, voffset
 .illustration-element-02::after {
 	@include illustration('illustration-element-02-mobile.svg', 300%, 200%);
 
 	@include media( '>medium' ) {
-		@include illustration('illustration-element-02.svg', 300%, 300%, 24px, -48px);
+		@include illustration('illustration-element-02.svg', 200%, 200%, center, 240px, -384px);
 	}
 }
 
@@ -86,4 +95,8 @@
 
 .illustration-element-07::after {
 	@include illustration('illustration-element-07.svg', 200%, 100%);
+}
+
+.illustration-element-09::after {
+	@include illustration('illustration-element-09.svg', 185%, 185%, center, 350px, -250px);
 }
