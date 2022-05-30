@@ -21,11 +21,12 @@
 
 .body-wrap {
 	position: relative;
-    overflow: hidden;
+    // overflow: hidden;
     // Sticky footer
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+	height: 900vh;
 }
 
 .site-content {
