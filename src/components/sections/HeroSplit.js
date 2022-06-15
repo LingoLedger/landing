@@ -99,7 +99,7 @@ class HeroSplit extends React.Component {
                     <Button
                       tag="a"
                       color="primary"
-                      href="https://cruip.com/"
+                      href="https://lingoledger.com/s?address=Australia&bounds=-9.0436707%2C159.200456%2C-54.8327658%2C112.8256904"
                       wideMobile
                     >
                       Book Now{" "}
